@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    background-image: url(../Assets/pexels-happy-donut-6320089.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-register {
+    width: 400px;
+    background:#f9b700;
+    padding: 24px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-left: 31%;
+    background: #f9b700;
+  }
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    border: 5px solid #00000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .terminos{
+    background: #f9b700;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #20500e;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  .botons:hover {
+      background-color: #43c100;
+
+  }

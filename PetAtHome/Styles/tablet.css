@@ -1,0 +1,9 @@
+.c2, .c3
+{
+    width: 48%;
+}
+
+.c4
+{
+    height: calc(60vh - 5rem);
+}

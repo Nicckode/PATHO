@@ -1,0 +1,26 @@
+.c1, .c2
+{
+    height: calc((100vh/3) - 4rem);
+}
+
+.c1
+{
+    width: 19%;
+}
+
+.c2
+{
+    width: 58%;
+}
+
+.c3, .c4, .c5
+{
+    width: calc((100%/3) - 2%);
+    height: calc((100vh/3) - 4rem);
+}
+
+.c6
+{
+    width: 100%;
+    height: calc((100vh/3) - 4rem);
+}

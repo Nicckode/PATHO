@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../Assets/baby-wolf.jpg");
+}
+
+h1{
+    font-size: 70px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+
+h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    font-size: x-large ;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.c
+{
+    width: 100%;
+    min-width: 150px;
+    height: calc(17vh - 1rem);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.c1
+{
+    background-color: #b97800d0;
+    max-width: 800px;
+    margin-inline-start: 180px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    
+}
+
+.c2
+{
+    background-color: #377921db;
+}
+
+.c3
+{
+    background-color: #377921c0;
+}
+
+.c4
+{
+    background-color: rgba(219, 117, 0, 0.784);
+    max-width: 700px;
+    max-height: 150px;
+    margin-inline-start: 225px;
+}
+
+.c5
+{
+    background-color: #377921bd;
+}
+
+.c6
+{
+    background-color: rgb(110 79 52);
+    height: calc(17vh - -23rem);
+    max-width: 700px;
+    max-height: 2409px;
+    margin-inline-start: 225px;
+}
+
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 50px 116px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(19, 112, 174);
+}
