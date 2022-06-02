@@ -5,7 +5,7 @@ include('db.php');
 $USUARIO = $_POST['username'];
 $PASSWORD = $_POST['password'];
 
-$consulta = "SELECT* FROM users where username = '$USUARIO' and password ='$PASSWORD' ";
+$consulta = "SELECT* FROM users where Usuario = '$USUARIO' and Password ='$PASSWORD' ";
 $resultado = mysqli_query($conexion, $consulta);
 
 $filas = mysqli_num_rows($resultado);
@@ -15,7 +15,10 @@ if ($filas) {
 } else {
     include("ingreso.html");
     ?>
-    <h1>ERROR DE AUTENTIFICACION</h1>
+    <br>
+    <h1 style="background-color: red; color: white; display: flex;
+    justify-content: center;">Usuario o contraseña incorrectos</h1>
+    
     <?php
 }
 

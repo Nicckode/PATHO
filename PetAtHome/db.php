@@ -1,3 +1,3 @@
 <?php
-    $conexion=mysqli_connect("localhost", "root", "", "ingreso");
+    $conexion = mysqli_connect("localhost", "root", "", "registro");
 ?>

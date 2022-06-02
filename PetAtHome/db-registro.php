@@ -1,5 +1,3 @@
 <?php
-
-$conexion = mysqli_connect("localhost", "root", "", "registro") or die("error conexion");
-
+    $conexion = mysqli_connect("localhost", "root", "", "registro") or die("error conexion");
 ?> 
