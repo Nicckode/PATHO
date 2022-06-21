@@ -1,0 +1,172 @@
+body{
+  background-image: url(../Assets/abrazandoperro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+  margin: 0;
+}
+
+.form-register {
+    width: 400px;
+    background:#377921;
+    padding: 24px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+  }
+  
+  .form-register h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    border: 5px solid #00000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+
+  
+  .form-register p {
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #b97900;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+.cuenta{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    border: 5px solid #00000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+  .botons:hover {
+      background-color: #916310;
+
+  }
+
+  @media (min-width: 320px) {
+
+    .form-register {
+      width: 217px;
+      background-image: linear-gradient( 290deg, #377921 10%, #b97900 100%);
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      font-family: 'calibri';
+      color: white;
+    }
+
+    .controls {
+      width: 88%;
+      background: #24303c;
+      padding: 10px;
+      border-radius: 37px;
+      margin-bottom: 16px;
+      border: 7px solid #00000000;
+      font-family: 'calibri';
+      font-size: 20px;
+      color: white;
+  }
+  
+}
+
+
+  @media (min-width: 375px) {
+    
+    .form-register {
+      width: 270px;
+      background-image: linear-gradient( 290deg, #377921 10%, #b97900 100%);
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      font-family: 'calibri';
+      color: white;
+    }
+
+    .controls {
+      width: 88%;
+      background: #24303c;
+      padding: 10px;
+      border-radius: 37px;
+      margin-bottom: 16px;
+      border: 7px solid #00000000;
+      font-family: 'calibri';
+      font-size: 20px;
+      color: white;
+  }
+  
+}
+  
+
+
+@media (min-width: 425px) {
+
+
+    .form-register {
+      width: 300px;
+      background-image: linear-gradient( 290deg, #377921 10%, #b97900 100%);
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      font-family: 'calibri';
+      color: white;
+    }
+
+   
+
+    .controls {
+      width: 92%;
+      background: #24303c;
+      padding: 10px;
+      border-radius: 37px;
+      margin-bottom: 10px;
+      border: 7px solid #00000000;
+      font-family: 'calibri';
+      font-size: 20px;
+      color: white;
+  }
+  
+}
