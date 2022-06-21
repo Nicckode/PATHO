@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 
-include('db-registro.php');
+include('db-registroUsers.php');
 
 $nombre = $_REQUEST['txtNombre'];
 $apellido = $_REQUEST['txtApellido'];
