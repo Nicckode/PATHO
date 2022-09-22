@@ -18,7 +18,7 @@ $usuario = $_REQUEST['txtUsuario'];
 $password = $_REQUEST['txtPassword'];
 
 
-$consulta = "INSERT INTO petsitters (`Nombre Completo`, `Apodo`, `Correo`, `Pais`, `Ciudad`, `Edad`, `Telefono`, `Direccion`, `Usuario`, `Password`) VALUES ('$nombre', '$apodo', '$correo', '$pais', `$ciudad`, `$edad`, `$cell`, `$address`, '$usuario', '$password');";
+$consulta = "INSERT INTO `petsitters` (`Nombre Completo`, `Apodo`, `Correo`, `Pais`, `Ciudad`, `Edad`, `Telefono`, `Direccion`, `Usuario`, `Password`) VALUES ('$nombres', '$apodo', '$correo', '$pais', '$ciudad', '$edad', '$cell', '$address', '$usuario', '$password');";
 
 $resultado = mysqli_query($conexion, $consulta) or die("error de registro");
 
